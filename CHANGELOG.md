@@ -1,0 +1,13 @@
+- ENHANCEMENT
+  - Changed title in site.header to have highlighted last name
+  - Created custom.css to alter main.css and main.min.css color schemes
+  - Changed site.footer to allow for an about me page
+  - Changed site header to say Menu instead of Nav when in mobile view, completed
+  - Adjusted list.html to look for images titled *featured* and include them in TOC markdown section. Trying to add images to the table of contents, capable of doing this using the img short code but quality suffers. Modified the list.html to check each page for a featured image in the images folder, this will do the trick. Need to resize it though.. https://discourse.gohugo.io/t/displaying-featured-images/10520/4
+  - Adjusted list.html to force all posts to show the Read_more link because I plan to use the front matter summary to describe each post.
+- BUGFIX
+  - Adjusted authors in list.html
+- To Do
+  - Learn how to update the theme
+  - Learn how to publish to github pages and continously deploy
+  - Learn how to set-up git on my repository

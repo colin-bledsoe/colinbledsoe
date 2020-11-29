@@ -1,0 +1,52 @@
+.gblog-header {
+  background: #2f5564;
+  color: #fff;
+  padding: 1rem 0
+}
+
+.highlight {
+  color: #e5a06f
+}
+
+.gblog-nav {
+  background: #e5a06f;
+  color: #fff;
+  min-height: .25rem
+}
+
+.gblog-footer {
+  background: #2f5564;
+  color: #fff
+}
+
+.gblog-nav__entry {
+  text-decoration: none;
+  color: #fff; /*2f5564;*/
+  padding: .25rem .5rem;
+  border: 1.5px solid;
+  border-color: #fff; /*#2f5564;*/
+  border-radius: .3rem;
+  display: inline-block;
+  margin: .25rem
+}
+
+.gblog-nav__entry.is-active  {
+  background: #2f5564;
+}
+
+.gblog-nav__entry:hover {
+  background: #343a40;
+  color: #fff;
+}
+
+/* mobile navigation list color change*/
+.gblog-nav li {
+  background: #e5a06f;
+}
+
+/* Not interested in changing navigation if user has visited*/
+.gblog-nav__entry:visited {
+  background: #2f5564;
+  border-color: #fff;
+  color: #fff;
+}
