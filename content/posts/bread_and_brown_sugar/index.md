@@ -1,7 +1,7 @@
 ---
 title: "Bread and Brown Sugar"
 date: 2020-11-26T08:09:49-07:00
-draft: true
+draft: false
 authors:
     - colinbledsoe
 summary: "I determine whether my kitchen scale is sensitive enough to measure the moisture content of sliced bread."

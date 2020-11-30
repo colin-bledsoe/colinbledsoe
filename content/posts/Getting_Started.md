@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
 date: 2020-07-15T20:00:00+02:00
+draft: true
 tags:
   - Documentation
 weight: 1
