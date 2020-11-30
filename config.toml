@@ -1,7 +1,6 @@
 baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "ColinBledsoe"
-title2 = "Bledsoe"
 theme = "hugo-geekblog"
 
 # Required to get well formatted code blocks
