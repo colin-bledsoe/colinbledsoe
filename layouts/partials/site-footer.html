@@ -8,10 +8,10 @@
             </span>
             {{ end }}
             <!--This is new-->
-            {{ if (fileExists "about.md") }}
+            {{ if (fileExists "/posts/about-me/index.md") }}
             <span class="gblog-footer__item">
                 <svg class="icon person"><use xlink:href="#person"></use></svg>
-                <a href='{{ "about" | relURL }}' class="gblog-footer__link">About</a>
+                <a href='{{ "posts/about-me" | relURL }}' class="gblog-footer__link">About</a>
             </span>
             {{ end }}
             <!--End of new section-->

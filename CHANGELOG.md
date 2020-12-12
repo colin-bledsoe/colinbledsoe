@@ -5,9 +5,23 @@
   - Changed site header to say Menu instead of Nav when in mobile view, completed
   - Adjusted list.html to look for images titled *featured* and include them in TOC markdown section. Trying to add images to the table of contents, capable of doing this using the img short code but quality suffers. Modified the list.html to check each page for a featured image in the images folder, this will do the trick. Need to resize it though.. https://discourse.gohugo.io/t/displaying-featured-images/10520/4
   - Adjusted list.html to force all posts to show the Read_more link because I plan to use the front matter summary to describe each post.
+  - Remove "built with hugo and <3" from footer
+  - Set-up git with my github repo using the https:// link on my github repo and 
+    - first cd into Hugo/sites/colinbledsoe
+    - then run git init in git bash
+    - then run git add . to select all files in the directory
+    - then run git commit -m 'initial project version'
+    - then link to github repo using git remote add origin https://github.com/colin-bledsoe/colinbledsoe.git
+    - then confirm that it is linked with git remote -v
+    - then push to githum using git push origin master
+  - adjusted baseurl in config.toml to match new netlify domain https://colinbledsoe.netlify.app/
 - BUGFIX
-  - Adjusted authors in list.html
+  - Adjusted authors in list.html wast $.name now .
 - To Do
-  - Learn how to update the theme
-  - Learn how to publish to github pages and continously deploy
-  - Learn how to set-up git on my repository
+  - Learn how to update the theme to newest version
+  - Set-up redirect links so if someone types /home it goes to the main page and if someone types /about also for 
+  404.html
+  - Adjust the baseurl in my config.toml to match the new netlify domain.
+  - Figure out how to add LateX to markdown?
+  - place github, linkedin, and email or about links into the header of my website below my title
+  - Main menu should show Recent Posts, Tags, About Me, then when hover or click on tags then it drops down to show tags

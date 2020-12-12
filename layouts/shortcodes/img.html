@@ -1,0 +1,53 @@
+{{ $source := ($.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Get "name")) }}
+{{ $customAlt := .Get "alt" }}
+{{ $customSize := .Get "size" }}
+
+{{ with $source }}
+{{ $caption := default .Title $customAlt }}
+
+{{ $tiny := (.Resize "320x").RelPermalink }}
+<!-- need to included an if-statement for exif orientation-->
+<!-- would be nice to have an align property to see-->
+{{ $small := (.Resize "600x").RelPermalink }}
+{{ $orientation := 1 }}
+    {{ with .Exif }}
+    {{ $orientation = .Tags.Orientation }}
+    {{ end }}
+{{ if eq $orientation 1 }}
+{{ else if (eq $orientation 6) }}
+    {{ $tiny = (.Resize "320x r270").RelPermalink }}
+    {{ $small = (.Resize "600x r270").RelPermalink }}
+{{ else if (eq $orientation 3) }}
+    {{ $tiny = (.Resize "320x r180").RelPermalink }}
+    {{ $small = (.Resize "600x r180").RelPermalink }} 
+{{ end }}
+
+{{ $medium := (.Resize "1200x").RelPermalink }}
+{{ $large := (.Resize "1800x").RelPermalink }}
+
+{{ $size := dict "tiny" $tiny "small" $small "medium" $medium "large" $large }}
+
+<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a href="{{ .RelPermalink }}">
+        <img
+            {{ with $customSize }}
+            src="{{ index $size $customSize }}" alt="{{ $caption }}"
+            {{ else }}
+            srcset="{{ $size.tiny }} 320w,
+                    {{ $size.small }} 600w,
+                    {{ $size.medium }} 1200w,
+                    {{ $size.large }} 2x"
+            sizes="(max-width: 320px) 320w,
+                   (max-width: 600px) 600w,
+                   (max-width: 1200px) 1200w,
+                   2x"
+            src="{{ $size.large }}" alt="{{ $caption }}"
+            {{ end }}/>
+    </a>
+    {{ with $caption }}
+    <figcaption>{{ . }}{{ with $source.Params.credits }} ({{ . | markdownify }}){{ end }}</figcaption>
+    {{ end }}
+</figure>
+</div>
+{{ end }}
