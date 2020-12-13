@@ -8,7 +8,7 @@ theme = "hugo-geekblog"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
-#enableGitInfo = true
+enableGitInfo = true
 
 # summaryLength = 35 shorten the summary from default 70 words
 
@@ -50,7 +50,7 @@ disablePathToLower = true
   term = ["HTML", "ATOM"]
 
 [params]
-  #subtitle = "Attempting to satisfy my own personal curiousity"
+  subtitle = "Chemical Engineering and Data Science"
   description = "This is my personal blog."
   keywords = []
   images = []

@@ -16,11 +16,10 @@ truncated: true
 tags:
     - About Me
 ---
+{{< img name="ribbon" >}}
 
 You guessed it, my name is Colin and I’m the author of this site. What more do you want to know? Throughout my life I've been known as someone who asks a lot of questions. As I've asked questions I've learned that not all questions have complete answers. For those questions without firm answers, I rely on my education, intuition, and simplifying assumptions to draw what I consider to be meaningful conclusions.
 
 {{< img name="family" size="small">}}
 
 I have a degree in Chemical Engineering from Brigham Young University. My training as a chemical engineer rekindled a childish sense of fascination for the world around me. I love finding new ways to use math, science, and computers to reason and attempt to explain observations in my life. I hope that you feel a similar sense of excitement and interest as you read my posts.
-
-{{< img name="ribbon" >}}
