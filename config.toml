@@ -62,7 +62,7 @@ enableGitInfo = true
   # (Optional, default 6) Set how many table of contents levels to be showed on page.
   # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
   # You can also specify this parameter per page in front matter.
-  geekblogToC = 3
+  geekblogToC = 6
 
   # (Optional, default none) Add a link to your Legal Notice page to the site footer.
   # It can be either a remote url or a local file path relative to your content directory.

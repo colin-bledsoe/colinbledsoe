@@ -1,0 +1,28 @@
+FIS super G racing data analysis
+Top speepd by player weight and height/ski length
+Which segment of each race has higher variation, how does the segment compare, steep elevation change?
+http://live.fis-ski.com/lv-al0054.htm#/startlist
+https://www.fis-ski.com/en/inside-fis/document-library/timing-data
+https://www.fis-ski.com/DB/alpine-skiing/live.html
+How do race times compare pre-post a crash on the slope?
+
+Looks like 1st place for the interval can have a negative split
+Second place is always red and so is everyone else. Why doesn't this change?
+First place ranking splits are distance from second place everyone else is relative to first place time
+Racing is interesting because the absolute time doesn't tell everything about how the race goes
+Also the absolute time at each interval is not a fair judgment either b/c doesn't say how much racer's are making up time
+Need to use the split time.
+Looks like split time ranking is actually based on absolute time not the time of the interval
+In both men's and women's the first place winnder gets first place absolute ranking in the final leg because they get to that split interval before everyone else
+Would  be cool to see relative times to see which skier is most improved during the race, crummy start but could have caught up.
+
+
+
+Super G Speed Science
+While working out the details of the multi-component phase equilibria problem from
+my Bread and Brown Sugar blog post, I decided to turn on some light-entertainment.
+I wanted to watch something entertaining but not too distracting and thought the 
+the FIS Men's Super G race seemed like a perfect fit. Turns out I was wrong,
+when the alternative is sifting through college thermodynamics lecture notes, 
+watching skiers fly down a slope that they haven't practiced on (first run is all they get)
+at speeds greater than 70 mph is very distracting. 

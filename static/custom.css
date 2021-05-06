@@ -8,6 +8,13 @@
   color: #e5a06f
 }
 
+code.has-jax {
+  -webkit-font-smoothing: antialiased;
+  background: inherit !important;
+  border: none !important;
+  font-size: 100%;
+}
+
 .gblog-nav {
   background: #e5a06f;
   color: #fff;

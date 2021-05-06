@@ -15,6 +15,7 @@
     - then confirm that it is linked with git remote -v
     - then push to githum using git push origin master
   - adjusted baseurl in config.toml to match new netlify domain https://colinbledsoe.netlify.app/
+  - added a partial layout for mathjax LaTex implementation and referenced it in site_header partial
 - BUGFIX
   - Adjusted authors in list.html wast $.name now .
 - To Do
