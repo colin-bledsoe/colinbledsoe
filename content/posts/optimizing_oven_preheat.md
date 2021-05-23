@@ -20,3 +20,8 @@ Control data
 12-15-20 ramp 70 to 400 deg F in 10 min 57 seconds (350 deg F achieved at 8 minutes 47 seconds)
 12-24-20 ramp 70-400 deg F in 10 min 48 seconds 
 1-2-2021 ramp 68-400 degF in 10 minutes 56 seconds
+
+
+Optimizing boiling a cup of water, a quart of water, a gallon water
+- better to wait until the tap is hot and then fill the pot versus fill the pot with cold water and put it on the burner rapidly.
+- Time this, measure it and time it.

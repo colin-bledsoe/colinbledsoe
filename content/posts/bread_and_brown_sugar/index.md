@@ -4,7 +4,7 @@ date: 2020-11-28T08:09:49-07:00
 draft: false
 authors:
     - colinbledsoe
-summary: "I measured how much moisture was transferred from a piece of fresh sliced bread to our container of dry brown sugar. My measurement led to a series of questions about the thermodynamics of brown sugar and air systems."
+summary: "I measured how much moisture was transferred from a piece of fresh sliced bread to a container of dry brown sugar. My measurement led to a series of questions about the thermodynamics of brown sugar and ambient air interactions."
 truncated: true
 tags:
     - Today I Measured
@@ -22,7 +22,7 @@ These measurements are specific to my "system" which is defined in part by my ho
 
 *There it is, I measured something! If you're satisfied, I'm glad you read this far and I hope that you learned something new. If you have more time, keep reading! This measurement triggered an interesting follow-up question.*
 
-Consider what we just observed, brown sugar spontaneously absorbed moisture from a slice of bread. Brown sugar is more hygroscopic than the average food (in this case, bread). If you are unfamiliar with the term, hygroscopic is an adjective that describes the tendency of a substance to absorb moisture from air. Another familiar example of a hygroscopic compound is silica gel. You'll often find packets of silica gel packaged on the interior of various new objects. In these applicatioans, silica gel, which is more hygroscopic than brown sugar, serves as a desiccant; sucking moisture out of air to keep products fresh until they are opened. A desiccant is a hygroscopic substance that is used to induce or sustain a state of dryness. Technically, as we saw above, brown sugar could be used as a desiccant, however, after reading the rest of this post you'll learn that brown sugar's effectiveness as a desiccant would be limited in application. Understanding that brown sugar readily absorbs water from it's surroundings, **why did the brown sugar dry out in the first place?** 
+Consider what we just observed, brown sugar spontaneously absorbed moisture from a slice of bread. Brown sugar is more hygroscopic than the average food (in this case, bread). If you are unfamiliar with the term, hygroscopic is an adjective that describes the tendency of a substance to absorb moisture from air. Another familiar example of a hygroscopic compound is silica gel. You'll often find packets of silica gel packaged on the interior of various new objects. In these applications, silica gel, which is more hygroscopic than brown sugar, serves as a desiccant; sucking moisture out of air to keep products fresh until they are opened. A desiccant is a hygroscopic substance that is used to induce or sustain a state of dryness. Technically, as we saw above, brown sugar could be used as a desiccant, however, after reading the rest of this post you'll learn that brown sugar's effectiveness as a desiccant would be limited in application. Understanding that brown sugar readily absorbs water from it's surroundings, **why did the brown sugar dry out in the first place?** 
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
@@ -35,15 +35,15 @@ Consider what we just observed, brown sugar spontaneously absorbed moisture from
 
 **The Set-Up**
 
-To begin to answer my question, I started by revisiting the sequence of events that led to this experiment. At this stage, I tried to limit the story to indisputable facts.
+To begin to answer my question, I started by revisiting the sequence of events that led to this experiment. At this early stage, I try to limit the story to indisputable facts.
 - I bought a bag of brown sugar from the local grocery store. Initially, the sealed bag of brown sugar felt soft and moldable. 
 - At first use, I transferred the brown sugar from its original plastic bag to a resealable plastic bag.
 - Over a period of several months I opened the bag, removed an amount of brown sugar and subsequently closed the resealable bag of brown sugar.  
-- Over time, the brown sugar dried into a hard, difficult-to-work-with mass. 
-- I weighed a slice of fresh bread from a bagged-loaf purchased at the local grocery store, tore it into several large pieces and added it to the bag of dried brown sugar. 
+- Over time, the brown sugar's texture changed into a hard, difficult-to-work-with mass. 
+- I weighed a slice of fresh bread from a bagged-loaf purchased at the local grocery store, tore it into several large pieces and added it to the bag of brown sugar. 
 - A week passed while the bag of bread and brown sugar was undisturbed and allowed to equilibrate.
 - I removed the bread from the bag, brushed off the residual brown sugar, and weighed the bread again. 
-- The texture of the brown sugar returned to it's soft and moldable state while the bread had become stiff and crisp.
+- The texture of the brown sugar returned to it's soft and moldable state while the bread weighed 4 grams less and had become stiff and crisp.
 
 **Simplifying Assumptions**
 
@@ -53,7 +53,7 @@ I assumed...
 - isothermal, the temperature was constant through out all events listed above. This is a reasonable assumption because the brown sugar was stored in the pantry of my kitchen where the temperature is held at 72 +/- 7 deg F year-round.
 - closed system, the sealed bag of bread, air, and brown sugar, constitutes a closed system. Plastic bags are effective barriers to mass transfer. This is not a perfect assumption but over short time scales it is reasonable. Mass transfer through the walls of the plastic bag has a negligible magnitude when compared to the mass exchanged while the bag is open to the ambient atmosphere.
 - During each opening of the bag, the ambient air in my home (which i'll consider as an infinite supply relative to the relatively small mass/volume of air in the closed bag system) was mixed with the air on the inside of the bag of brown sugar.
-- Assuming brown sugar's moisture sorption isotherm can be accurately modeled with XXX which is publicly available on the internet
+<!-- - Assuming brown sugar's moisture sorption isotherm can be accurately modeled with XXX which is publicly available on the internet
 
 
 - Assuming brown sugar's water activity is 0.40 at 25 deg C and assuming the system in the unopened bag had reached equilibrium. The air in the headspace above the brown sugar is at 40% relative humidity (40% of the way towards dew point at 25 deg  C). the brown sugar system transitioned from an isolated system (no mass transfer to surroundings) to an open system (free mass transfer with surroundings). My house is kept at 30% relative humidity. Each time the bag is opened induced drafts from my arm scooping brown sugar out of the bag cause mixing between the two sources of air (brown sugar air and house air). When the bag is finally closed and stored back on the shelf the system is no longer in equilibrium (was at 40% RH and aw of 0.40). After mixing, the air in the headspace of the brown sugar bag is now at 32% relative humidity while the brown sugar is still at a water activity level of 0.40. This implies that the partial pressure of water in the headspace above the brown sugar is not high enough to prevent water molecules from permanently leaving the brown sugar. Thus the brown sugar preferentially gives up it's sorbed water to the air in the headspace of the bag. As this happens, the water activity drops and the relative humidity rises. They will meet somewhere between 32-40% RH and 0.32-0.40 aw. We can't say with certainty what the final aw will be because it is non-linear but we can be sure that the sugar will give up moisture to the air.   
@@ -86,7 +86,9 @@ Water activity is a pseudo vapor pressure of water divided by the vapor pressure
 
 Chemical engineers will remember learning about activity coefficients (chemical potential, internal energy, gibbs free energy and fugacity). Effective concentration, so we can still think of concentration gradients but now we consider molecular interactions impacting concentration gradients. When activity across two phases is the same the phases are in equilibrium.
 
-<!-- 
+Some foods may respond to increases in relative humidity by adsorbing water into bound sites without significantly adjusting the water activity? No that's not right...
+
+
 how does hygroscopic activity present itself, so at some moisture levels the sugar sucks water from the atmosphere but if its dry enough the air sucks water back out? Ziploc bag method has less headspace above the sugar to be exchanged each time the container is opened to the atmosphere. Heating it is only for immediate use because you are actually driving more moisture out and probably only changing the viscosity of the molasses.
 - Though we may not see it, the materials around us are dynamic systems. They move towards equilibrium.
 - Everytime the bag is opened, the boundaries on the closed system are broken and the system opens up to mass transfer. The solid brown sugar remains in the bag but the mixture of gasses in the atmosphere are free-flowing and exchange with some of the gasses in the room that the bag is opened into. Unless the ziploc bag is opened up in a room with very high humidity, this acton leads to a net loss of water in the closed system.  (create gifs in concepts.app)
