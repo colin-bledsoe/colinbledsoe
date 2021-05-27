@@ -68,7 +68,9 @@ Above I mentioned molecules having enough energy. The amount of energy required 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
     <a href="images/bread_brown_sugar.gif">
-        <img src="images/bread_brown_sugar.gif">
+        <img src="images/bread_brown_sugar.gif" 
+            width="500" 
+            height="500">
     </a>
     <figcaption>Check out my educational gif skillz.</figcaption>
 </figure>
