@@ -29,7 +29,7 @@ Consider what we just observed, brown sugar spontaneously absorbed moisture from
     <a href="images/Thermo_GIF_loop.gif">
         <img src="images/Thermo_GIF_loop.gif">
     </a>
-    <figcaption>An all too familiar sequence of events. You find yourself on a walk along a nice, safe path. "Huh? What's that? I'll go check it out... Wow, I've got to figure out what is causing that phenomenon! If I can just get a little closer. Aahhhhhh!!" Thermodynamics strikes again, tricked by a seemingly simple question you find yourself at the bottom of a dark cavernous pit.</figcaption>
+    <figcaption>An all too familiar sequence of events. You find yourself on a walk along a nice, safe path. "Huh? What's that? I'll go check it out... Wow, I've got to figure out what is causing that phenomenon! If I can just get a little closer. Aahhhhhh!!" Thermodynamics strikes again, tricked by a seemingly simple question you find yourself at the bottom of a dark cavernous pit. Credit: Colin Bledsoe</figcaption>
 </figure>
 </div>
 
@@ -40,10 +40,10 @@ Wikipedia defines vapor pressure as the pressure exerted by a vapor in thermodyn
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <a href="images/vapor_pressure_gif.gif">
-        <img src="images/vapor_pressure_gif.gif">
+    <a href="images/vapor_pressure_gif2.gif">
+        <img src="images/vapor_pressure_gif2.gif">
     </a>
-    <figcaption>Molecules courtesy of https://www.chem.purdue.edu/gchelp/liquids/vpress.html</figcaption>
+    <figcaption>Simple animation of phase transition occuring at the interface of a liquid. Animation courtesy of <a href="https://www.chem.purdue.edu/gchelp/liquids/vpress.html">Purdue's Chemical Engineering Website</a>.</figcaption>
 </figure>
 </div>
 
@@ -51,12 +51,32 @@ This thin boundary between the air and water is called the vapor-liquid interfac
 
 Hopefully the above analogy served as an effective explanation to increase your conceptual understanding of vapor pressure. Understanding a component's vapor pressure teaches us about the conditions required for the component to rest in a state of equilibrium. At room temperature (77 deg F, 25 deg C) the vapor pressure of pure water is 0.0313 atmospheres. This means that if the partial pressure of water (not the total air pressure, just the portion of ambient pressure contributed from water molecules) in the air above the puddle was just 0.0313 atmospheres, then the puddle could remain intact indefinitely without shrinking or growing through evaporation or condensation. Unfortunately for scientists and engineers, it is incredibly rare to encounter systems as simple as this. It is more realistic to encounter frequent and unknown variations in the system's parameters like local fluctuations in temperature, pressure, or composition. 
 
-<oprah_simplifying_assumptions:https://mobile.twitter.com/DrChrisCombs/status/1385276587415724033/photo/3>
-<kronk_simplifying_assumptions:https://ifunny.co/picture/me-simplifying-the-navier-stokes-equation-oh-yeah-aNQVNwFr7>
+Often, the complexity of real physical systems is too difficult to characterize with simple mathematical equations. Even with complex mathematical models/equations, we have a finite capacity to measure the initial state of the system around us (huge numbers of molecules, the ones with weird names like a Septillion) so we never really know what is happening to each and every molecule to give us an accurate starting point for our complicated models (see chaos theory for more). Fortunately, in many situations, simplifying assumptions can bring a complex real world system of unknowns into a more forgiving world of idealized systems without giving up too much detail to render the exercise useless. In simple terms, scientists and engineers can still learn important information without having to consider every intricate detail.
 
-Often, the complexity of real physical systems is too difficult to characterize with simple mathematical equations. Even with complex mathematical models/equations, we have a finite capacity to measure the initial state of the system around us (huge numbers of molecules, the ones with weird names like a Septillion) so we never really know what is happening to each and every molecule to give us an accurate starting point for our complicated models (see chaos theory for more). Fortunately, in many situations, simplifying assumptions can bring a complex real world system of unknowns into a more forgiving world of idealized systems without giving up too much detail to render the exercise useless. In simple terms, scientists and engineers can still learn important information without having to consider every intricate detail. 
+<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a href="images/oprah_simplifying_assumptions.jpg">
+        <img src="images/oprah_simplifying_assumptions.jpg"
+            width="400"
+            height="800">
+    </a>
+    <figcaption>Dr. Combs is a professor in the mechanical engineering department at the University of Texas at San Antonio. He has an awesome twitter account where I found this 
+        <a href="https://mobile.twitter.com/DrChrisCombs/status/1385276587415724033/photo/3">meme</a>. Credit: A Student of Dr. Combs.</figcaption>
+</figure>
+</div>
 
-Now we are prepared to evaluate the bread and brown sugar (and air) system.
+<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a href="images/kronk_simplifying_assumptions.jpg">
+        <img src="images/kronk_simplifying_assumptions.jpg"
+            width="520"
+            height="650">
+    </a>
+    <figcaption>Another great meme I found on <a href="https://ifunny.co/picture/me-simplifying-the-navier-stokes-equation-oh-yeah-aNQVNwFr7">Dr. Combs twitter account</a>. Credit: A Student of Dr. Combs.</figcaption>
+</figure>
+</div>
+
+Now that we have laid the some suitable groundwork, we are prepared to build off of our basic knowledge and attempt to explain the observed brown sugar behavior.
 
 Rather than a system of pure water and air, we must now consider brown sugar (molasses and crystalline sucrose), bread (complex carbohydrates), air, and water. 
 
@@ -72,7 +92,7 @@ Above I mentioned molecules having enough energy. The amount of energy required 
             width="500" 
             height="500">
     </a>
-    <figcaption>Check out my educational gif skillz.</figcaption>
+    <figcaption>Even a low quality gif like this one can illuminate our minds as we explore complicated topics. Credit: Colin Bledsoe</figcaption>
 </figure>
 </div>
 
