@@ -64,6 +64,16 @@ For pure components, we use vapor pressure, for more complicated compounds, clev
 
 Above I mentioned molecules having enough energy. The amount of energy required is dependent on the molecular weight and the strength of interaction with neighboring molecules. Temperature is a measure of the distribution of kinetic energy of each molecule in the system.
 
+
+<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a href="images/bread_brown_sugar.gif">
+        <img src="images/bread_brown_sugar.gif">
+    </a>
+    <figcaption>Check out my educational gif skillz.</figcaption>
+</figure>
+</div>
+
 <!--
 **The Set-Up**
 
