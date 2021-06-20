@@ -36,7 +36,7 @@ I designed the mechanism on the interior of the box to run using an Arduino Nano
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <video width="500" height="250" controls="controls">
+    <video width="300" controls="controls">
         <source src="images/diversion_box_test_run.MOV">
     </video>
     <figcaption>Operation of the mechanism inside the diversion box.</figcaption>
