@@ -26,7 +26,7 @@ I love process control and automation. Recently I created a feature for a privat
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
     <a href="images/diversion_box_operation.gif">
-        <img src="images/diversion_box_operation.gif">
+        <img src="images/diversion_box_operation_optimized.gif">
     </a>
     <figcaption>I present the Diversion Box!</figcaption>
 </figure>
@@ -37,7 +37,7 @@ I designed the mechanism on the interior of the box to run using an Arduino Nano
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
     <a href="images/diversion_box_test_run.gif">
-        <img src="images/diversion_box_test_run.gif">    
+        <img src="images/diversion_box_test_run_optimized.gif">    
     </a>
     <figcaption>Operation of the mechanism inside the diversion box.</figcaption>
 </figure>
