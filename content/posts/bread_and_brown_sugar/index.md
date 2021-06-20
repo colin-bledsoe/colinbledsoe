@@ -76,14 +76,13 @@ Often, the complexity of real physical systems is too difficult to characterize 
 </figure>
 </div>
 
-Now that we have laid the some suitable groundwork, we are prepared to build off of our basic knowledge and attempt to explain the observed brown sugar behavior.
+Now that we have laid a suitable foundation, we are prepared to build off of our basic knowledge and attempt to explain the observed brown sugar behavior.
 
-Rather than a system of pure water and air, we must now consider brown sugar (molasses and crystalline sucrose), bread (complex carbohydrates), air, and water. 
-
-For pure components, we use vapor pressure, for more complicated compounds, clever scientists have come up with a measure called water activity.
+Rather than a simple system of pure water and air, we must now consider brown sugar (molasses and crystalline sucrose), bread (complex carbohydrates), air, and water. Clever scientists have come up with a measure called water activity.
 
 Above I mentioned molecules having enough energy. The amount of energy required is dependent on the molecular weight and the strength of interaction with neighboring molecules. Temperature is a measure of the distribution of kinetic energy of each molecule in the system.
 
+Smaller molecules take less energy to escape, molecules with less bonding interactions take less energy to escape. 
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
