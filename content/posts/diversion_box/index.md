@@ -12,10 +12,12 @@ tags:
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <a href="images/diversion_box_operation.gif">
-        <img src="images/diversion_box_operation.gif">
+    <a href="images/diversion_box.JPG">
+        <img src="images/diversion_box.JPG"
+            width="500"
+            height="667">
     </a>
-    <figcaption>I present the Diversion Box!</figcaption>
+    <figcaption>When presented with a magnetic field, a small post protrudes out of the side of this wooden box to reveal a hidden clue.</figcaption>
 </figure>
 </div>
 
@@ -23,12 +25,10 @@ I love process control and automation. Recently I created a feature for a privat
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <a href="images/diversion_box.JPG">
-        <img src="images/diversion_box.JPG"
-            width="500"
-            height="667">
+    <a href="images/diversion_box_operation.gif">
+        <img src="images/diversion_box_operation.gif">
     </a>
-    <figcaption>When presented with a magnetic field, a small post protrudes out of the side of this wooden box to reveal a hidden clue.</figcaption>
+    <figcaption>I present the Diversion Box!</figcaption>
 </figure>
 </div>
 

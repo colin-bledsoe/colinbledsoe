@@ -1,7 +1,7 @@
 ---
 title: "The Diversion Box"
 date: 2021-06-16T16:23:54-06:00
-draft: false
+draft: true
 authors:
     - colinbledsoe
 summary: "I created a feature for a private escape room birthday party. I harnessed the power of an Arduino and some low voltage electronics to bring my project to life."
