@@ -13,7 +13,7 @@ tags:
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
     <a href="posts/diversion_box">
-        <video width="350" height="600" controls="controls">
+        <video width="280" controls="controls">
             <source src="images/diversion_box_operation.MOV">
         </video>
     </a>
@@ -39,7 +39,7 @@ I designed the mechanism on the interior of the box to run using an Arduino Nano
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
     <a href="posts/diversion_box">
-        <video width="500" controls="controls">
+        <video width="280" controls="controls">
             <source src="images/diversion_box_test_run.MOV">
         </video>
     </a>
