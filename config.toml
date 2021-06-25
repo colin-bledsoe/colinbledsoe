@@ -4,9 +4,6 @@ languageCode = "en-us"
 title = "ColinBledsoe"
 theme = "hugo-geekblog"
 
-# Google Analytics
-googleAnalytics = "G-92GNDHM20N"
-
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
 pygmentsCodeFences = true
