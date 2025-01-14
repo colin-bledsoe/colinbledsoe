@@ -22,13 +22,13 @@ You guessed it, my name is Colin and I’m the author of this site. What more do
 
 {{< img name="family" size="small">}}
 
-I have a degree in Chemical Engineering from Brigham Young University. My training as a chemical engineer rekindled a childish sense of fascination for the world around me. I love finding new ways to use math, science, and computers to reason and attempt to explain observations in my life. I hope that you feel a similar sense of excitement and interest as you read my posts.
+I have a degree in Chemical Engineering from Brigham Young University. My training as a chemical engineer rekindled a childish sense of fascination for the world around me. I love finding new ways to use math, science, and computers to reason and attempt to explain observations in my life. I hope that you feel a similar sense of excitement and intrigue as you read my posts.
 
 *A little more about me..*
 
 **Engineer**
 
-I have spent 3 years as a process engineer in a manufacturing setting. During this time, I've worked in both the semiconductor and carbon fiber composite industries. As a process engineer, I frequently feel like a detective seeking out clues that ultimately lead to a discovery about an event either positvely or negatively impacting production. Every day I review SPC charts, equipment/operator/maintenance logs, and other data sources to come up with creative and efficient ways to reduce waste while still creating a superior product.
+I have spent 7 years as a process engineer in a manufacturing setting. During this time, I've worked in both the semiconductor and carbon fiber composite industries. As a process engineer, I frequently feel like a detective seeking out clues that ultimately lead to a discovery about an event either positvely or negatively impacting production. Every day I review SPC charts, equipment/operator/maintenance logs, and other data sources to come up with creative and efficient ways to reduce waste while still creating a superior product.
 
 **Father**
 

@@ -6,7 +6,7 @@ Colin
 
 ## Contributors
 
-Special thanks to Robert Kaussow for creating and sharing his Geekblog Hugo theme. all [Geekblog](https://github.com/thegeeklab/hugo-geekblog/).
+Special thanks to Robert Kaussow for creating and sharing his [Geekblog](https://github.com/thegeeklab/hugo-geekblog/) Hugo theme.
 
 ## License
 
