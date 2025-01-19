@@ -44,7 +44,8 @@ The high level pipeline I implemented was:
             loop
             autoplay
             muted
-            width="700">
+            playsinline
+            width="350">
     </a>
     <figcaption>A webcam video feed where Halloween caricatures have been swapped in place of detected faces in the frame.</figcaption>
 </figure>
@@ -59,7 +60,8 @@ A challenge that I didn't expect to encounter during this project was establishi
             loop
             autoplay
             muted
-            width="700">
+            playsinline
+            width="300">
     </a>
     <figcaption>After figuring out resizing of masks, the next hurdle I faced was overlaying the same mask on each face from one frame to the next.</figcaption>
 </figure>

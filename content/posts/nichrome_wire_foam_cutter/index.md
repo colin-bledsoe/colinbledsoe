@@ -23,6 +23,7 @@ I tensioned some Nichrome wire between a screw and a tensioned spring so that wh
             loop
             autoplay
             muted
+            playsinline
             width="300">
     </a>
     <figcaption>Cutting foam like butter...</figcaption>

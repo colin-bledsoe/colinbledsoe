@@ -1,5 +1,5 @@
 ---
-title: "Alohamora Box"
+title: "Alohomora Box"
 date: 2023-07-31T20:00:00-06:00
 draft: false
 authors:
@@ -61,7 +61,7 @@ With that behind us, you'll understand that I was happy to oblige when a friend 
 
 ### Feature Inspiration
 
-I wanted to make a box that could be opened remotely when escape room participants cast the "Alohamora" spell. Sarah Jane found a beautiful antique jewelry box at a local thrift store that would give the perfect bones for my project. After redoing some sprinklers in the yard, I discovered that pop-up sprinkler springs were impressively strong and readily available. I knew I wanted to include a sprinkler spring as an energy source in the project.
+I wanted to make a box that could be opened remotely when escape room participants cast the "Alohomora" spell. Sarah Jane found a beautiful antique jewelry box at a local thrift store that would provide the perfect aesthetic for the project. After redoing some sprinklers in the yard, I discovered that pop-up sprinkler springs were impressively strong and readily available. I knew I wanted to include a sprinkler spring as an energy source in the project.
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
@@ -70,9 +70,10 @@ I wanted to make a box that could be opened remotely when escape room participan
             loop
             autoplay
             muted
+            playsinline
             width="300">
     </a>
-    <figcaption>Presenting, the Alohamora Box!</figcaption>
+    <figcaption>Presenting, the Alohomora Box!</figcaption>
 </figure>
 </div>
 
@@ -80,7 +81,7 @@ To provide the energy to open the box, I mounted a spring in the back corner so 
 
 Next, I modified the jewelry box's latching mechanism so that it could be opened from the box interior. Then I attached a servo horn to the adapted mechanism.
 
-Finally, I embedded an IR receiver and Arduino in an incospicuous leather briefcase set beneath the peach colored jewelry box and wired everything together. When the correct spell was cast, the box would be triggerd by an escape room moderator revealing the clues hidden inside. 
+Finally, I embedded an IR receiver and Arduino in an inconspicuous leather briefcase set beneath the peach colored jewelry box and wired everything together. When the correct spell was cast, the box would be triggerd by an escape room moderator revealing the clues hidden inside. 
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
@@ -101,6 +102,7 @@ I am really proud of how nicely this box turned out. Besides functioning as desi
             loop
             autoplay
             muted
+            playsinline
             width="250">
     </a>
     <figcaption>First round of unsuspecting escape room participants.</figcaption>
@@ -114,6 +116,7 @@ I am really proud of how nicely this box turned out. Besides functioning as desi
             loop
             autoplay
             muted
+            playsinline
             width="250">
     </a>
     <figcaption>Second round of unsuspecting escape room participants.</figcaption>

@@ -41,7 +41,8 @@ The control system is composed of a RaspberryPI 3B+, a 5V servo motor, and a PiC
             loop
             autoplay
             muted
-            width="700">
+            playsinline
+            width="350">
     </a>
     <figcaption>Critically damped ball on beam.</figcaption>
 </figure>

@@ -1,7 +1,7 @@
 ---
 title: "Bread and Brown Sugar"
 date: 2020-11-28T08:09:49-07:00
-draft: false
+draft: true
 authors:
     - colinbledsoe
 summary: "I measured how much moisture was transferred from a piece of fresh sliced bread to a container of dry brown sugar. My measurement led to a series of questions about the thermodynamics of brown sugar and ambient air interactions."

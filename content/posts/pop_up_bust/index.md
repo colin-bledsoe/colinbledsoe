@@ -19,7 +19,8 @@ We moved recently and I have some fresh motivation to make something fun. I had 
             loop
             autoplay
             muted
-            width="300">
+            playsinline
+            width="250">
     </a>
     <figcaption>Passive infrared (PIR) triggered pneumatic Halloween decoration!</figcaption>
 </figure>
@@ -29,7 +30,7 @@ Besides attaching a styrofoam bust to a pneumatic cylinder without it launching 
 
 After fiddling for many hours, I ended up abandoning the ultrasonic transducer in favor of a passive infra-red sensor (the kind that triggers the light on your garage door motor). Which had a simple trimpot to adjust the sensitivty of the triggering IR intensity. This was a lot more stable of a solution, I have another project in mind for the transducer.
 
-Unfortunately, I don't have many pictures of the build process for this one. It was a pretty straight-forward hardware set-up, air compressor provides pressure to the solenoid valve via a hose and quick-connect fitting. Then pressure is suppleid from the solenoid valve to the pneumatic cylinder via some pneumatic tubing. The solenoid was actuated by the Arduino when the PIR sensor output a 5V signal indicating someone was present.
+Unfortunately, I don't have many pictures of the build process for this one. It was a pretty straight-forward hardware set-up, air compressor provides pressure to the solenoid valve via a hose and quick-connect fitting. Then pressure is supplied from the solenoid valve to the pneumatic cylinder via some pneumatic tubing. The solenoid was actuated by the Arduino when the PIR sensor output a 5V signal indicating someone was present.
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
